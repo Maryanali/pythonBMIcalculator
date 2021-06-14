@@ -31,4 +31,4 @@ print(result)
 weight= input("Input your weight in kg: ")
 height= input("Input your height please in m: ")
 bmi= int(weight)/ float(height) ** 2
-print(round(bmi))
+print(round(bmi, 2))
