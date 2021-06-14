@@ -28,7 +28,7 @@ print(result)
 
 
 #BMI calculator 
-weight= input("Input your weight in kg ")
-height= input("Input your height please in m ")
+weight= input("Input your weight in kg: ")
+height= input("Input your height please in m: ")
 bmi= int(weight)/ float(height) ** 2
-print(bmi)
+print(round(bmi))
