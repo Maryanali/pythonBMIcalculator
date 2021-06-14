@@ -32,4 +32,6 @@ weight= input("Input your weight in kg: ")
 height= input("Input your height please in m: ")
 bmi= int(weight)/ float(height) ** 2
 new_bmi= round(bmi, 2)
-print("Your score is " + str(new_bmi))
+#print("Your score is " + str(new_bmi))
+#f string:
+print(f"Your BMI is {new_bmi}, your height is {height} m, your weight is {weight} kg")
